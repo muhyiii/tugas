@@ -92,7 +92,7 @@ function App() {
   return (
     <React.Fragment>
       <div className="h-full bg-gray-500">
-        <div className="lg:mx-40 ">
+        <div className="lg:mx-40 lg:text-left text-center ">
           <Header></Header>
           <div>
             <div className="lg:col-span-5 lg:grid grid-cols-4 gap-5   lg:px-0 overflow-auto px-8 py-5">
