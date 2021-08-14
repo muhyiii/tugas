@@ -92,9 +92,33 @@ function App() {
   return (
     <React.Fragment>
       <div className="h-full bg-gray-500">
-        <div className="lg:mx-40  ">
-          <Header></Header>
-          <div>
+        <div className="  ">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="absolute "
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#1f2937"
+              fill-opacity="1"
+              d="M0,256L48,245.3C96,235,192,213,288,218.7C384,224,480,256,576,245.3C672,235,768,181,864,138.7C960,96,1056,64,1152,69.3C1248,75,1344,117,1392,138.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+            ></path>
+          </svg>
+          <div className="lg:mx-32 lg:mb-32">
+            <div className="relative ml-10">
+              <Header></Header>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 lg:mx-32 lg:h-96 lg:mb-48 mt-28 sm:hidden md:hidden hidden ">
+            <p>TEs</p>
+            <img
+              className=" "
+              src="https://asset.kompas.com/crops/O3kKNUL06rj-5sU-mzhYwvJpcS4=/44x8:1000x645/750x500/data/photo/2019/12/18/5df9e59f4c8b0.jpg"
+              alt=""
+            />
+          </div>
+
+          <div className="lg:mx-32">
             <div className="lg:col-span-5 lg:grid grid-cols-4 gap-5   lg:px-0 overflow-auto px-8 py-5">
               {masakans.map((masakan, index) => (
                 <Main
@@ -106,9 +130,14 @@ function App() {
               ))}
             </div>
           </div>
-          <div className="lg:py-20 py-24">
-            <Footer></Footer>
-          </div>
+          
+          
+            
+            <div className="">
+              <Footer></Footer>
+            </div>
+            
+          
         </div>
       </div>
     </React.Fragment>

@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
 
-
-export default function Footer(){
-return(
+export default function Footer() {
+  return (
     <React.Fragment>
-        <div className="text-center text-white">
-        <h3>@It's Mine Rest    |   2021</h3>
-        </div>
+      <div className="justify-center text-white bg-gray-800 h-20 items-center flex   ">
         
+        <h3 className="text-center">@It's Mine Rest | 2021</h3>
+      </div>
     </React.Fragment>
-)
+  );
 }
-
