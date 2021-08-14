@@ -109,14 +109,7 @@ function App() {
               <Header></Header>
             </div>
           </div>
-          <div className="grid grid-cols-2 lg:mx-32 lg:h-96 lg:mb-48 mt-28 sm:hidden md:hidden hidden ">
-            <p>TEs</p>
-            <img
-              className=" "
-              src="https://asset.kompas.com/crops/O3kKNUL06rj-5sU-mzhYwvJpcS4=/44x8:1000x645/750x500/data/photo/2019/12/18/5df9e59f4c8b0.jpg"
-              alt=""
-            />
-          </div>
+         
 
           <div className="lg:mx-32">
             <div className="lg:col-span-5 lg:grid grid-cols-4 gap-5   lg:px-0 overflow-auto px-8 py-5">
